@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="zh-Hant-TW">
+
+<head>
+
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="世新大學資訊傳播學系網頁設計：系網設計">
+    <meta name="author" content="資傳一甲18紀昕蓉">
+
+    <title>世新大學資訊傳播學系｜網頁設計</title>
+
+    <!-- Bootstrap Core CSS -->
+    <link href="css/bootstrap.min.css" rel="stylesheet">
+
+    <!-- Custom CSS -->
+    <link href="css/modern-business.css" rel="stylesheet">
+
+    <!-- Custom Fonts -->
+    <link href="font-awesome/css/font-awesome.min.css" rel="stylesheet" type="text/css">
+
+    <!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
+    <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+    <!--[if lt IE 9]>
+        <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
+        <script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
+    <![endif]-->
+	
+	<script>
+      function showHelloWorld() {
+        var today=new Date().toDateString();
+        document.getElementById("today").innerHTML="Hello World,today is "+today;
+      }
+      function changeColor() {        document.getElementById("today").style.color="#ff00ff";
+                             }
+      function checkNumber() {
+        x=document.getElementById("number").value;
+        if (isNaN(x) | | x<=0) {
+          alert("Please input a positive number!");
+        }
+        else{
+          alert("You input a positive number:"+ x +"!")
+        }
+      }
+     
+    </script>	
+
+</head>  
+  
+  <body>
+    <h1 onclick=showHelloWorld()>Show date!</h1>
+    <h1 onclick=changeColor()>Change color</h1>
+    <p id="today">Click on the headlines to see the demo of Javascript!</p>    
+    <h1>Please input a positive number!</h1>
+    <p>現在時間是<span id="date_str"></span>!</p>    <script>document.getElementById("date_str").innerHTML=Date();</script>
+    <input id="number" type="text">
+    <button onclick=checknumber()>check</button>    
+  </body>
+   
+</html>

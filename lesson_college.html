@@ -1,0 +1,782 @@
+<!DOCTYPE html>
+<html lang="zh-Hant-TW">
+
+<head>
+
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="世新大學資訊傳播學系網頁設計：系網設計">
+    <meta name="author" content="資傳一甲18紀昕蓉">
+
+    <title>世新大學資訊傳播學系｜網頁設計</title>
+
+    <!-- Bootstrap Core CSS -->
+    <link href="css/bootstrap.min.css" rel="stylesheet">
+
+    <!-- Custom CSS -->
+    <link href="css/modern-business.css" rel="stylesheet">
+
+    <!-- Custom Fonts -->
+    <link href="font-awesome/css/font-awesome.min.css" rel="stylesheet" type="text/css">
+	
+	<link href="css/shuic.css" rel="stylesheet">
+
+    <!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
+    <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+    <!--[if lt IE 9]>
+        <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
+        <script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
+    <![endif]-->
+
+</head>
+
+<body>
+
+    <!-- Navigation -->
+    <nav class="navbar navbar-inverse navbar-fixed-top" role="navigation">
+        <div class="container">
+            <!-- Brand and toggle get grouped for better mobile display -->
+            <div class="navbar-header">
+                <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
+                    <span class="sr-only">Toggle navigation</span>
+					<span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                </button>
+                <a class="navbar-brand" href="index.html">世新大學資訊傳播學系</a>
+            </div>
+            <!-- Collect the nav links, forms, and other content for toggling -->
+            <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+                <ul class="nav navbar-nav navbar-right">                                    
+					<li class="dropdown">
+                        <a href="#" class="dropdown-toggle" data-toggle="dropdown">消息公告<b class="caret"></b></a>
+                        <ul class="dropdown-menu">
+                            <li>
+                                <a href="https://drive.google.com/file/d/0BwegzJIBPrXgVld4ajRpbzJLNGM/view" target="_blank">行事曆 <i class="fa fa-paperclip"></i></a>
+                            </li>
+							<li>
+                                <a href="news.html">最新資訊</a>
+                            </li>
+                            <li>
+                                <a href="news_normal.html">一般公務</a>
+                            </li>
+							<li>
+                                <a href="news_honor.html">榮譽榜</a>
+                            </li>
+							<li>
+                                <a href="news_employ.html">求才資訊</a>
+                            </li>							
+							<li>
+                                <a href="https://sites.google.com/a/mail.shu.edu.tw/dreamsfly/" target="_blank">獎學金資訊 <i class="fa fa-link"></i></a>
+                            </li>
+							<li>
+                                <a href="https://bhuntr.com/tw/competitions/wall?category=film&period=submission&sort=expiring&worldwide=worldwide&within_old=no&categories=" target="_blank">競賽徵件資訊 <i class="fa fa-link"></i></a>
+                            </li>
+							
+                        </ul>
+                    </li>
+					<li class="dropdown">
+                        <a href="#" class="dropdown-toggle" data-toggle="dropdown">認識資傳<b class="caret"></b></a>
+                        <ul class="dropdown-menu">
+                            <li>
+                                <a href="history.html">歷史沿革</a>
+                            </li>
+                            <li>
+                                <a href="character.html">系所特色</a>
+                            </li>
+							<li>
+                                <a href="teachers.html">師資陣容</a>
+                            </li>
+							<li>
+                                <a href="works.html">歷年作品</a>
+                            </li>
+							<li>
+                                <a href="alumnus.html">系友專區</a>
+                            </li>
+							<li>
+                                <a href="album.html">活動相簿</a>
+                            </li>
+                        </ul>
+                    </li>
+					<li class="dropdown">
+                        <a href="#" class="dropdown-toggle" data-toggle="dropdown">學生專區<b class="caret"></b></a>
+                        <ul class="dropdown-menu">
+                            <li>
+                                <a href="recruit.html">招生資訊</a>
+                            </li>
+                            <li>
+                                <a href="lesson_college.html">課程資訊</a>
+                            </li>							
+							<li>
+                                <a href="https://www.facebook.com/groups/53618211696/" target="_blank">世新資傳 <i class="fa fa-facebook-square"></i></a>
+                            </li>
+							<li>
+                                <a href="https://www.facebook.com/icssc/" target="_blank">資傳系學會 <i class="fa fa-facebook-square"></i></a>
+                            </li>
+							
+                        </ul>
+                    </li>
+					<li class="dropdown">
+                        <a href="#" class="dropdown-toggle" data-toggle="dropdown">常用網站<b class="caret"></b></a>
+                        <ul class="dropdown-menu">
+                            <li>
+                                <a href="http://www.shu.edu.tw/" target="_blank">世新大學校網 <i class="fa fa-link"></i></a>
+                            </li>
+							<li>
+                                <a href="https://ap.shu.edu.tw/SSO/login.aspx?ReturnUrl=https://ap.shu.edu.tw/sso/default.aspx" target="_blank">世新山洞口 <i class="fa fa-link"></i></a>
+                            </li>
+							<li>
+                                <a href="https://ap.shu.edu.tw/SSO/login.aspx?ReturnUrl=/SSO/Auth.aspx%3FCheckSessionID%3Dd11cdf4545ygpc55tlnokpiq%26GetAuthUrl%3Dhttps://ap3.shu.edu.tw/STU1/Login.aspx%26ReturnUrl%3Dhttps://ap3.shu.edu.tw/stu1/login.aspx" target="_blank">學生教務系統 <i class="fa fa-link"></i></a>
+                            </li>
+                            <li>
+                                <a href="http://elearn.shu.edu.tw/mooc/index.php" target="_blank">eLearn教學平台 <i class="fa fa-link"></i></a>
+                            </li>
+							<li>
+                                <a href="http://iprogram.web.shu.edu.tw/" target="_blank">學分學程網 <i class="fa fa-link"></i></a>
+                            </li>						
+                        </ul>
+                    </li>
+					
+					<li>
+                        <a href="contact.html">聯絡我們</a>
+                    </li>					
+					<li class="dropdown">
+                        <a href="#" class="dropdown-toggle" data-toggle="dropdown">網站企劃<b class="caret"></b></a>
+                        <ul class="dropdown-menu">
+                            <li>
+                                <a href="style-guide.html">設計規範</a>
+                            </li>
+                            <li>
+                                <a href="sitemap.html">網站地圖</a>
+                            </li>							
+                        </ul>
+                    </li>
+					<form class="navbar-form navbar-right">
+									<div class="input-group">
+										<input type="text" class="form-control" placeholder="資傳大小事">
+										<div class="input-group-btn">
+											<button class="btn btn-default" type="submit">
+											<i class="glyphicon glyphicon-search"></i>
+											</button>
+										</div>
+									</div>
+						</form>
+					
+                </ul>
+            </div>
+            <!-- /.navbar-collapse -->
+        </div>
+        <!-- /.container -->
+    </nav>
+
+
+    <!-- Page Content -->
+    <div class="container">
+
+        <!-- Page Heading/Breadcrumbs -->
+        <div class="row">
+            <div class="col-lg-12">
+                <h1 class="page-header">課程資訊</h1>
+                <ol class="breadcrumb">
+                    <li><a href="index.html">Home</a>
+                    </li>
+					<li class="active">學生專區</li>
+                    <li class="active">課程資訊</li>
+					<li class="active">大學部</li>
+                </ol>
+            </div>
+        </div>
+        <!-- /.row -->
+
+        <!-- Content Row -->
+        <div class="row">
+            <!-- Sidebar Column -->
+            <div class="col-md-3">
+				<div class="list-group">
+                    <a class="list-group-item active">大學部</a>
+                    <a href="lesson_master.html" class="list-group-item">碩士班</a>
+                    <a href="lesson_masterpro.html" class="list-group-item">碩士在職班</a>
+                </div>
+				<div class="list-group">
+                    <a href="recruit.html" class="list-group-item">招生資訊</a>
+                    <a class="list-group-item">課程資訊</a>
+                    <a href="" class="list-group-item">世新資傳（另開連結）</a>
+                    <a href="" class="list-group-item">資傳系學會（另開連結）</a>                    
+                </div>
+            </div>
+            <!-- Content Column -->
+            <div class="col-md-9">
+			
+			<div class="row">
+            
+            <div class="col-lg-12">
+
+                <ul id="myTab" class="nav nav-tabs nav-justified">
+                    <li class="active"><a href="#service-one" data-toggle="tab">學習目標</a>
+                    </li>
+                    <li class=""><a href="#service-two" data-toggle="tab">課程特色</a>
+                    </li>
+                    <li class=""><a href="#service-three" data-toggle="tab">課程架構</a>
+                    </li>
+                    <li class=""><a href="#service-four" data-toggle="tab">四年課表</a>
+                    </li>
+					<li class=""><a href="#service-five" data-toggle="tab">選課須知與規定</a>
+                    </li>
+                </ul>
+
+                <div id="myTabContent" class="tab-content">
+				
+                    <div class="tab-pane fade active in" id="service-one">
+					
+					<div class="col-lg-12" style="background-color:#DDE9F4;padding:10px;border:1px solid black;margin:30px 0px">
+					<p><i class="fa fa-asterisk"></i>培養資訊設計、知識加值及網路傳播等三項專業能力之人才</p>
+					<p><i class="fa fa-asterisk"></i>培養掌握多元化的資訊資源</p>
+					<p><i class="fa fa-asterisk"></i>培養運用多重化的傳播媒介之人才</p>
+					<p><i class="fa fa-asterisk"></i>培養擅長資訊之蒐集組織，知識管理之人才</p>
+					<p><i class="fa fa-asterisk"></i>培養資訊傳播介面應用的資訊服務之人才</p>
+					<p><i class="fa fa-asterisk"></i>培育具備獨立批判與思考能力之人才</p>					
+					</div>
+					
+					<p>秉承本校及本校新聞傳播學院之宗旨與教育目標，資訊傳播學系旨在培養數位時代之資訊產業與文化創意產業之人才，專業能力著重在資訊內容的設計、加值與傳播，故課程目標從資訊內容產出過程的規劃、製作與加值，至資訊內容傳播過程之管理、行銷與傳播，期能以全面而完整的課程，培植新聞傳播學院所強調的媒體匯流內容產製及新媒體創意發想人才。</p>
+					<p>在理論與實務並重的教學下，使學生掌握資訊傳播產業鏈所需具備之專業知識、技能與態度，以最適合的管道將最適當的資訊傳遞給最需要的人，使資訊能夠有效傳播</p>
+									
+                    </div>
+					
+                    <div class="tab-pane fade" id="service-two">
+					
+					<div class="media" style="margin-top:30px">
+                    <div class="pull-left">
+                        <span class="fa-stack fa-2x">
+                              <i class="fa fa-circle fa-stack-2x text-primary"></i>
+                              <i class="fa fa-pencil-square-o fa-stack-1x fa-inverse"></i>
+                        </span> 
+                    </div>
+                    <div class="media-body">
+                    <h3>能力核心－資訊設計能力</h3>
+					<p>資訊設計能力是指為提升資訊傳播的效能與效率，擁有將資料與訊息從事規劃、構思、製作與呈現的專業知識與技能。包括各種網頁圖文設計與製作，並能整合的基礎網頁編製技巧；具備影音媒體的製作以及傳播能力；掌握網站的規劃與設計能力，以及擁有數位內容產品企劃能力。</p>
+					</div>
+					<div class="col-lg-12" style="background-color:#DDE9F4;padding:20px;border:1px solid black">
+					<h4><i class="fa fa-search"></i>學生應具備的知識</h4>
+					<p>文字、聲音、圖片及影像等各種資訊媒介在傳播上的意義。網頁的標準化製作、近用性(accessibility)及搜尋優化(search engine optimization, SEO)等概念。多媒體系統與產品規劃流程與設計要項。</p>
+					<h4><i class="fa fa-flask"></i>學生應具備的技能</h4>
+					<p>具傳播效力的各種資訊媒介製作。標準化的網頁製作多媒體系統及產品的規劃與製作。</p>
+					<h4><i class="fa fa-sitemap"></i>相對應課程</h4>
+					<div class="col-md-3">
+					<li>網頁設計</li>
+					<li>影像數位化處理</li>
+					<li>數位藝術鑑賞</li>
+					<li>電腦動畫概論一</li>
+					<li>網站規劃與設計</li>
+					<li>數位典藏創新加值規劃</li>
+					</div>
+					<div class="col-md-3">
+					<li>數位媒體概論</li>
+					<li>訊息設計</li>
+					<li>攝影理論與實務</li>
+					<li>電腦動畫概論二</li>
+					<li>數位內容產業概論</li>
+					</div>				
+					</div>				
+                    </div>
+					
+					<hr>
+					
+					<div class="media">
+                    <div class="pull-left">
+                        <span class="fa-stack fa-2x">
+                              <i class="fa fa-circle fa-stack-2x text-primary"></i>
+                              <i class="fa fa-credit-card fa-stack-1x fa-inverse"></i>
+                        </span> 
+                    </div>
+                    <div class="media-body">
+                    <h3>能力核心－知識加值能力</h3>
+					<p>知識加值能力旨在促進知識的有效利用，訓練學生具備能將各種資料、資訊或知識進行描述、分析、分類、組織、表達及管理的專業知識與技能。學習了解各種知識原件、及其知識特性，進而具備基礎知識處理能力，進而能夠規劃及操作知識組織及知識管理系統之知識與技能，以及知識整合的能力。</p>
+					<p><li>知識組織流程知識</li>
+					<li>知識組織系統知識</li>
+					<li>知識管理系統知識</li>
+					<li>數位產品技術加值</li></p>
+					</div>
+					<div class="col-lg-12" style="background-color:#DDE9F4;padding:20px;border:1px solid black";>
+					<h4><i class="fa fa-search"></i>學生應具備的知識</h4>
+					<p>知識組織、表達及管理之原理、過程及相關應用之知識</p>
+					<h4><i class="fa fa-flask"></i>學生應具備的技能</h4>
+					<p>將相關知識元件描述、索引、分類、加值及表達之技能，以及設計、規劃及操作相關知識組織、知識管理系統及活動之技能。</p>
+					<h4><i class="fa fa-sitemap"></i>相對應課程</h4>
+					<div class="col-md-3">
+					<li>標示語言</li>
+					<li>資訊搜尋策略</li>
+					<li>知識組織</li>
+					<li>創新與產業發展</li>
+					<li>系統分析</li>
+					<li>資訊傳播機構管理</li>
+					<li>競爭智慧</li>
+					</div>
+					<div class="col-md-3">					
+					<li>分類學</li>
+					<li>資料庫系統</li>
+					<li>知識產業概論</li>
+					<li>知識管理應用</li>
+					<li>後設資料</li>
+					<li>數位內容管理</li>
+					</div>				
+					</div>					
+                    </div>
+					
+					<hr>
+					
+					<div class="media">
+                    <div class="pull-left">
+                        <span class="fa-stack fa-2x">
+                              <i class="fa fa-circle fa-stack-2x text-primary"></i>
+                              <i class="fa fa-rss fa-stack-1x fa-inverse"></i>
+                        </span> 
+                    </div>
+                    <div class="media-body">
+                    <h3>能力核心－網路傳播能力</h3>
+					<p>網路傳播能力是指運用網路和他人產生對話溝通的能力。必須善用網路平台，進行訊息規劃設計，並能掌握、解讀訊息內容，進而從對話過程，反思網路文化經驗。掌握基本傳播技能，能夠運用傳播理論思考網路資訊呈現方式，以及透過傳播文化了解資訊使用行為，且結合行銷企劃能力從事網路傳播。</p>
+					</div>
+					<div class="col-lg-12" style="background-color:#DDE9F4;padding:20px;border:1px solid black">
+					<h4><i class="fa fa-search"></i>學生應具備的知識</h4>
+					<p>
+					<li>了解傳播的概念、過程與各種文化情境中訊息意義產製</li>
+					<li>系統性分析資訊使用者行為與需求</li>
+					<li>掌握網路傳播特性，產製數位文本內容創造對話</li>
+					</p>
+					<h4><i class="fa fa-flask"></i>學生應具備的技能</h4>
+					<p>
+					<li>依溝通情境運用最佳化的資訊傳播方式</li>
+					<li>分析資訊使用者行為，並依需求規劃和呈現內容</li>
+					<li>建置互動性網路平台</li>
+					</p>
+					<h4><i class="fa fa-sitemap"></i>相對應課程</h4>
+					<div class="col-md-3">
+					<li>傳播技能</li>
+					<li>網路內容設計</li>
+					<li>傳播與文化</li>
+					<li>資訊服務與行銷</li>
+					<li>專案企劃</li>
+					<li>傳播理論</li>
+					<li>資訊心理學</li>
+					</div>
+					<div class="col-md-3">				
+					<li>使用者研究</li>
+					<li>網路傳播</li>
+					</div>
+					
+					
+					</div>					
+                    </div>					
+                    </div>
+					 
+                    <div class="tab-pane fade" id="service-three">
+					
+					<div class="media" style="margin-top:30px">
+                    <div class="pull-left">
+                        <span class="fa-stack fa-2x">
+                              <i class="fa fa-circle fa-stack-2x text-primary"></i>
+                              <i class="fa fa-cube fa-stack-1x fa-inverse"></i>
+                        </span> 
+                    </div>
+                    <div class="media-body">
+                        <h3>基礎課程</h3>
+                    </div>
+					<div class="col-lg-12" style="background-color:#DDE9F4;padding:20px;border:1px solid black;margin-top:20px">
+					<li>資訊傳播學概論</li>
+					<li>專業英文導讀（一）（二）</li>
+					<li>資訊源、資訊傳播產業概論</li>
+					<li>基礎資料分析</li>				
+					</div>								
+					</div>
+					
+					<hr>
+					
+					<div class="media">
+                    <div class="pull-left">
+                        <span class="fa-stack fa-2x">
+                              <i class="fa fa-circle fa-stack-2x text-primary"></i>
+                              <i class="fa fa-bullseye fa-stack-1x fa-inverse"></i>
+                        </span> 
+                    </div>
+                    <div class="media-body">
+                        <h3>核心課程</h3>
+                    </div>
+					<div class="col-lg-12" style="background-color:#DDE9F4;padding:20px;border:1px solid black;margin-top:20px">
+										
+					<div class="col-lg-4">
+					<h4>（１）資訊設計能力</h4>
+					<li>影像數位化處理</li>
+					<li>程式設計概論</li>
+					<li>網頁設計</li>
+					<li>電腦動畫概論</li>
+					<li>訊息設計</li>
+					<li>影音數位化處理</li>
+					<li>互動程式設計</li>
+					<li>網路內容設計</li>
+					<li>數位產品技術加值</li>
+					<li>網站規劃與設計</li>
+					<li>數位典藏與創新加值規劃</li>
+					<li>數位媒體概論</li>
+					<li>數位內容產業概論</li>				
+					</div>
+					
+					<div class="col-lg-4">
+					<h4>（２）知識加值能力</h4>
+					<li>分類學</li>
+					<li>標示語言</li>
+					<li>資訊搜尋策略</li>
+					<li>知識組織</li>
+					<li>資料庫系統</li>
+					<li>知識管理應用</li>
+					<li>資訊應用服務</li>
+					<li>知識產業概論</li>
+					<li>競爭智慧</li>
+					<li>後設資料</li>
+					<li>數位內容管理</li>
+					<li>資訊傳播機構管理</li>
+					<li>系統分析</li>
+					</div>
+					
+					<div class="col-lg-4">
+					<h4>（３）網路傳播能力</h4>
+					<li>網路內容設計</li>
+					<li>資訊心理學</li>
+					<li>數位內容策展</li>
+					<li>專案企劃</li>
+					<li>資訊服務與行銷</li>
+					<li>使用者研究</li>
+					<li>傳播與文化</li>
+					<li>網路傳播</li>										
+					</div>
+					
+									
+					</div>								
+					</div>
+					
+					<hr>
+					
+					<div class="media">
+                    <div class="pull-left">
+                        <span class="fa-stack fa-2x">
+                              <i class="fa fa-circle fa-stack-2x text-primary"></i>
+                              <i class="fa fa-pie-chart fa-stack-1x fa-inverse"></i>
+                        </span> 
+                    </div>
+                    <div class="media-body">
+                        <h3>總整課程</h3>
+                    </div>
+					<div class="col-lg-12" style="background-color:#DDE9F4;padding:20px;border:1px solid black;margin-top:20px">
+					<li>資訊傳播學專題（一）（二）</li>
+					<li>資訊傳播產業研究</li>
+					<li>資訊傳播產業實習</li>				
+					</div>								
+					</div>
+					
+					<hr>
+					
+					<div class="media">
+                    <div class="pull-left">
+                        <span class="fa-stack fa-2x">
+                              <i class="fa fa-circle fa-stack-2x text-primary"></i>
+                              <i class="fa fa-sliders fa-stack-1x fa-inverse"></i>
+                        </span> 
+                    </div>
+                    <div class="media-body">
+                        <h3>課程地圖</h3>
+                    </div>
+					<p><img src="images/college_map.png" alt=""></p>													
+					</div>					
+					
+                    </div>
+					
+                    <div class="tab-pane fade" id="service-four">
+					
+					<div class="col-lg-12" style="margin-top:30px">
+								<div class="row">
+								<div class="col-md-12">
+									<a href="http://ic.shu.edu.tw/wp-content/uploads/2017/03/106A%E5%9B%9B%E5%B9%B4%E8%AA%B2%E8%A1%A8.pdf" target="_blank"><h3>106學年度大學部四年課程表</h3></a>
+									<h4>2017 年 03 月 31 日</h4>
+								</div>
+							</div>
+							
+							<hr>
+							
+							<div class="row">
+								<div class="col-md-12">
+									<a href="http://ic.shu.edu.tw/wp-content/uploads/2016/10/105%E5%A4%A7%E5%AD%B8%E9%83%A8%E5%9B%9B%E5%B9%B4%E8%AA%B2%E8%A1%A81050322.pdf" target="_blank"><h3>105學年度大學部四年課程表</h3></a>
+									<h4>2016 年 10 月 04 日</h4>
+								</div>
+							</div>
+							
+							<hr>
+							
+							<div class="row">
+								<div class="col-md-12">
+									<a href="http://ic.shu.edu.tw/wp-content/uploads/2015/08/104%E5%9B%9B%E5%B9%B4%E8%AA%B2%E8%A1%A8.pdf" target="_blank"><h3>104學年度大學部四年課程表</h3></a>
+									<h4>2015 年 08 月 19 日</h4>
+								</div>
+							</div>
+
+							<hr>
+							
+							<div class="row">
+								<div class="col-md-12">
+									<a href="http://ic.shu.edu.tw/wp-content/uploads/2014/11/103%E5%A4%A7%E5%AD%B8%E9%83%A8%E5%9B%9B%E5%B9%B4%E8%AA%B2%E8%A1%A81030715.pdf" target="_blank"><h3>103學年度大學部四年課程表</h3></a>
+									<h4>2014 年 11 月 04 日</h4>
+								</div>
+							</div>
+					</div>		
+					
+                    </div>
+					
+					<div class="tab-pane fade" id="service-five">
+					
+					<div class="media" style="margin-top:30px">
+                    <div class="pull-left">
+                        <span class="fa-stack fa-2x">
+                              <i class="fa fa-circle fa-stack-2x text-primary"></i>
+                              <i class="fa fa-sliders fa-stack-1x fa-inverse"></i>
+                        </span> 
+                    </div>
+                    <div class="media-body">
+                        <h2>課務表格</h2>
+                    </div>
+					
+					<div class="col-lg-12" style="margin-top:30px">
+								<div class="row">
+								<div class="col-md-12">
+									<a href="" target="_blank"><h3>資訊傳播學系學生修讀學、碩士五年一貫學程甄選作業要點</h3></a>
+									<h4>2015 年 01 月 05 日</h4>
+								</div>
+							</div>
+							
+							<hr>
+							
+							<div class="row">
+								<div class="col-md-12">
+									<a href="" target="_blank"><h3>世新大學校際選課作業辦法</h3></a>
+									<h4>2014 年 06 月 09 日</h4>
+								</div>
+							</div>
+							
+							<hr>
+							
+							<div class="row">
+								<div class="col-md-12">
+									<a href="" target="_blank"><h3>大學選課辦法</h3></a>
+									<h4>2014 年 06 月 09 日</h4>
+								</div>
+							</div>						
+					</div>					
+					
+					</div>
+					
+					<hr>
+					
+					<div class="media" style="margin-top:30px">
+                    <div class="pull-left">
+                        <span class="fa-stack fa-2x">
+                              <i class="fa fa-circle fa-stack-2x text-primary"></i>
+                              <i class="fa fa-sliders fa-stack-1x fa-inverse"></i>
+                        </span> 
+                    </div>
+                    <div class="media-body">
+                        <h2>相關表格</h2>
+                    </div>
+					</div>
+					
+					<div class="col-lg-12" style="margin-top:30px">					
+							
+							<div class="row">
+								<div class="col-md-12">
+									<a href="" target="_blank"><h3>實習單位意願調查表</h3></a>
+									<h4>2015 年 03 月 23 日</h4>
+								</div>
+							</div>
+							
+							<hr>
+							
+							<div class="row">
+								<div class="col-md-12">
+									<a href="" target="_blank"><h3>修讀資傳系學、碩士五年一貫學程甄選表格</h3></a>
+									<h4>2015 年 01 月 05 日</h4>
+								</div>
+							</div>
+
+							<hr>
+							
+							<div class="row">
+								<div class="col-md-12">
+									<a href="" target="_blank"><h3>實習評量表</h3></a>
+									<h4>2014 年 09 月 12 日</h4>
+								</div>
+							</div>
+							
+							<hr>
+							
+							<div class="row">
+								<div class="col-md-12">
+									<a href="" target="_blank"><h3>A0 實習流程圖</h3></a>
+									<h4>2015 年 08 月 19 日</h4>
+								</div>
+							</div>
+
+							<hr>
+							
+							<div class="row">
+								<div class="col-md-12">
+									<a href="" target="_blank"><h3>A1 實習確認單</h3></a>
+									<h4>2014 年 09 月 12 日</h4>
+								</div>
+							</div>
+
+							<hr>
+							
+							<div class="row">
+								<div class="col-md-12">
+									<a href="" target="_blank"><h3>A2 學生志願調查表</h3></a>
+									<h4>2014 年 09 月 12 日</h4>
+								</div>
+							</div>
+
+							<hr>
+							
+							<div class="row">
+								<div class="col-md-12">
+									<a href="" target="_blank"><h3>A3 實習學生個人資料表</h3></a>
+									<h4>2014 年 09 月 12 日</h4>
+								</div>
+							</div>
+
+							<hr>
+							
+							<div class="row">
+								<div class="col-md-12">
+									<a href="" target="_blank"><h3>A4 實習合作同意書</h3></a>
+									<h4>2014 年 09 月 12 日</h4>
+								</div>
+							</div>
+
+							<hr>
+							
+							<div class="row">
+								<div class="col-md-12">
+									<a href="" target="_blank"><h3>A5 實習課程選修申請書</h3></a>
+									<h4>2014 年 09 月 12 日</h4>
+								</div>
+							</div>
+
+							<hr>
+							
+							<div class="row">
+								<div class="col-md-12">
+									<a href="" target="_blank"><h3>公假申請單</h3></a>
+									<h4>2015 年 06 月 09 日</h4>
+								</div>
+							</div>
+							
+							<hr>
+							
+							<div class="row">
+								<div class="col-md-12">
+									<a href="" target="_blank"><h3>請假單</h3></a>
+									<h4>2015 年 06 月 09 日</h4>
+								</div>
+							</div>
+							
+							<hr>
+							
+							<div class="row">
+								<div class="col-md-12">
+									<a href="" target="_blank"><h3>教學大樓教室借用申請表</h3></a>
+									<h4>2015 年 06 月 09 日</h4>
+								</div>
+							</div>
+							
+							<hr>
+							
+							<div class="row">
+								<div class="col-md-12">
+									<a href="" target="_blank"><h3>雙主修申請表</h3></a>
+									<h4>2015 年 06 月 09 日</h4>
+								</div>
+							</div>
+							
+							<hr>
+							
+							<div class="row">
+								<div class="col-md-12">
+									<a href="" target="_blank"><h3>轉系申請表</h3></a>
+									<h4>2015 年 06 月 09 日</h4>
+								</div>
+							</div>
+							
+							<hr>
+							
+							<div class="row">
+								<div class="col-md-12">
+									<a href="" target="_blank"><h3>停修課程申請表</h3></a>
+									<h4>2015 年 06 月 09 日</h4>
+								</div>
+							</div>
+							
+							<hr>
+							
+							<div class="row">
+								<div class="col-md-12">
+									<a href="" target="_blank"><h3>加修課程申請表</h3></a>
+									<h4>2015 年 06 月 09 日</h4>
+								</div>
+							</div>
+							
+							<hr>
+							
+							<div class="row">
+								<div class="col-md-12">
+									<a href="" target="_blank"><h3>校際選課申請表</h3></a>
+									<h4>2015 年 06 月 09 日</h4>
+								</div>
+							</div>
+							
+					</div>				
+					
+                    </div>
+                </div>
+
+            </div>
+        </div>
+			
+			
+			
+			
+			
+			
+			</div>
+        </div>
+        <!-- /.row -->
+
+        <hr>
+
+        <!-- Footer -->
+        <footer>
+            <div class="row">
+                <div class="col-lg-12">
+				<p>Copyright &copy; 世新大學資訊傳播學系</p>
+				<p>世新大學資訊傳播學系 ( 如有網頁相關意見或公告事宜，歡迎來信<a href="dwsine13@gmail.com">dwsine13@gmail.com</a> 告知網管 )｜ <a href="http://ic.shu.edu.tw/?p=9319&preview=true&preview_id=9319" target="_blank">隱私聲明</a></p>
+				<p>地址：臺北市11604 文山區木柵路一段17巷1號　電話：(02)2236-8225轉3282 傳真：(02)2236-1722　design by 世新資傳A105070018紀昕蓉</p>
+                </div>
+            </div>
+        </footer>
+
+    </div>
+    <!-- /.container -->
+
+    <!-- jQuery -->
+    <script src="js/jquery.js"></script>
+
+    <!-- Bootstrap Core JavaScript -->
+    <script src="js/bootstrap.min.js"></script>
+
+</body>
+
+</html>

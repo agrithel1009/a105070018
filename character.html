@@ -1,0 +1,772 @@
+<!DOCTYPE html>
+<html lang="zh-Hant-TW">
+
+<head>
+
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="世新大學資訊傳播學系網頁設計：系網設計">
+    <meta name="author" content="資傳一甲18紀昕蓉">
+
+    <title>世新大學資訊傳播學系｜網頁設計</title>
+
+    <!-- Bootstrap Core CSS -->
+    <link href="css/bootstrap.min.css" rel="stylesheet">
+
+    <!-- Custom CSS -->
+    <link href="css/modern-business.css" rel="stylesheet">
+
+    <!-- Custom Fonts -->
+    <link href="font-awesome/css/font-awesome.min.css" rel="stylesheet" type="text/css">
+	
+	<link href="css/shuic.css" rel="stylesheet">
+
+    <!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
+    <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+    <!--[if lt IE 9]>
+        <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
+        <script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
+    <![endif]-->
+
+</head>
+
+<body>
+
+    <!-- Navigation -->
+    <nav class="navbar navbar-inverse navbar-fixed-top" role="navigation">
+        <div class="container">
+            <!-- Brand and toggle get grouped for better mobile display -->
+            <div class="navbar-header">
+                <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
+                    <span class="sr-only">Toggle navigation</span>
+					<span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                </button>
+                <a class="navbar-brand" href="index.html">世新大學資訊傳播學系</a>
+            </div>
+            <!-- Collect the nav links, forms, and other content for toggling -->
+            <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+                <ul class="nav navbar-nav navbar-right">                                    
+					<li class="dropdown">
+                        <a href="#" class="dropdown-toggle" data-toggle="dropdown">消息公告<b class="caret"></b></a>
+                        <ul class="dropdown-menu">
+                            <li>
+                                <a href="https://drive.google.com/file/d/0BwegzJIBPrXgVld4ajRpbzJLNGM/view" target="_blank">行事曆 <i class="fa fa-paperclip"></i></a>
+                            </li>
+							<li>
+                                <a href="news.html">最新資訊</a>
+                            </li>
+                            <li>
+                                <a href="news_normal.html">一般公務</a>
+                            </li>
+							<li>
+                                <a href="news_honor.html">榮譽榜</a>
+                            </li>
+							<li>
+                                <a href="news_employ.html">求才資訊</a>
+                            </li>							
+							<li>
+                                <a href="https://sites.google.com/a/mail.shu.edu.tw/dreamsfly/" target="_blank">獎學金資訊 <i class="fa fa-link"></i></a>
+                            </li>
+							<li>
+                                <a href="https://bhuntr.com/tw/competitions/wall?category=film&period=submission&sort=expiring&worldwide=worldwide&within_old=no&categories=" target="_blank">競賽徵件資訊 <i class="fa fa-link"></i></a>
+                            </li>
+							
+                        </ul>
+                    </li>
+					<li class="dropdown">
+                        <a href="#" class="dropdown-toggle" data-toggle="dropdown">認識資傳<b class="caret"></b></a>
+                        <ul class="dropdown-menu">
+                            <li>
+                                <a href="history.html">歷史沿革</a>
+                            </li>
+                            <li>
+                                <a href="character.html">系所特色</a>
+                            </li>
+							<li>
+                                <a href="teachers.html">師資陣容</a>
+                            </li>
+							<li>
+                                <a href="works.html">歷年作品</a>
+                            </li>
+							<li>
+                                <a href="alumnus.html">系友專區</a>
+                            </li>
+							<li>
+                                <a href="album.html">活動相簿</a>
+                            </li>
+                        </ul>
+                    </li>
+					<li class="dropdown">
+                        <a href="#" class="dropdown-toggle" data-toggle="dropdown">學生專區<b class="caret"></b></a>
+                        <ul class="dropdown-menu">
+                            <li>
+                                <a href="recruit.html">招生資訊</a>
+                            </li>
+                            <li>
+                                <a href="lesson_college.html">課程資訊</a>
+                            </li>							
+							<li>
+                                <a href="https://www.facebook.com/groups/53618211696/" target="_blank">世新資傳 <i class="fa fa-facebook-square"></i></a>
+                            </li>
+							<li>
+                                <a href="https://www.facebook.com/icssc/" target="_blank">資傳系學會 <i class="fa fa-facebook-square"></i></a>
+                            </li>
+							
+                        </ul>
+                    </li>
+					<li class="dropdown">
+                        <a href="#" class="dropdown-toggle" data-toggle="dropdown">常用網站<b class="caret"></b></a>
+                        <ul class="dropdown-menu">
+                            <li>
+                                <a href="http://www.shu.edu.tw/" target="_blank">世新大學校網 <i class="fa fa-link"></i></a>
+                            </li>
+							<li>
+                                <a href="https://ap.shu.edu.tw/SSO/login.aspx?ReturnUrl=https://ap.shu.edu.tw/sso/default.aspx" target="_blank">世新山洞口 <i class="fa fa-link"></i></a>
+                            </li>
+							<li>
+                                <a href="https://ap.shu.edu.tw/SSO/login.aspx?ReturnUrl=/SSO/Auth.aspx%3FCheckSessionID%3Dd11cdf4545ygpc55tlnokpiq%26GetAuthUrl%3Dhttps://ap3.shu.edu.tw/STU1/Login.aspx%26ReturnUrl%3Dhttps://ap3.shu.edu.tw/stu1/login.aspx" target="_blank">學生教務系統 <i class="fa fa-link"></i></a>
+                            </li>
+                            <li>
+                                <a href="http://elearn.shu.edu.tw/mooc/index.php" target="_blank">eLearn教學平台 <i class="fa fa-link"></i></a>
+                            </li>
+							<li>
+                                <a href="http://iprogram.web.shu.edu.tw/" target="_blank">學分學程網 <i class="fa fa-link"></i></a>
+                            </li>						
+                        </ul>
+                    </li>
+					
+					<li>
+                        <a href="contact.html">聯絡我們</a>
+                    </li>					
+					<li class="dropdown">
+                        <a href="#" class="dropdown-toggle" data-toggle="dropdown">網站企劃<b class="caret"></b></a>
+                        <ul class="dropdown-menu">
+                            <li>
+                                <a href="style-guide.html">設計規範</a>
+                            </li>
+                            <li>
+                                <a href="sitemap.html">網站地圖</a>
+                            </li>							
+                        </ul>
+                    </li>
+					<form class="navbar-form navbar-right">
+									<div class="input-group">
+										<input type="text" class="form-control" placeholder="資傳大小事">
+										<div class="input-group-btn">
+											<button class="btn btn-default" type="submit">
+											<i class="glyphicon glyphicon-search"></i>
+											</button>
+										</div>
+									</div>
+						</form>
+					
+                </ul>
+            </div>
+            <!-- /.navbar-collapse -->
+        </div>
+        <!-- /.container -->
+    </nav>
+
+
+    <!-- Page Content -->
+    <div class="container">
+
+        <!-- Page Heading/Breadcrumbs -->
+        <div class="row">
+            <div class="col-lg-12">
+                <h1 class="page-header">系所特色</h1>
+                <ol class="breadcrumb">
+                    <li><a href="index.html">Home</a>
+                    </li>
+					<li class="active">認識資傳</li>
+                    <li class="active">系所特色</li>
+                </ol>
+            </div>
+        </div>
+        <!-- /.row -->
+
+        <!-- Content Row -->
+        <div class="row">
+            <!-- Sidebar Column -->
+            <div class="col-md-3">
+				<div class="list-group">
+                    <a href="history.html" class="list-group-item">歷史沿革</a>
+                    <a class="list-group-item active">系所特色</a>
+                    <a href="teachers.html" class="list-group-item">師資陣容</a>
+					<a href="works.html" class="list-group-item">歷年作品</a>
+                    <a href="alumnus.html" class="list-group-item">系友專區</a>
+                    <a href="album.html" class="list-group-item">活動相簿</a>                    
+                </div>
+            </div>
+            <!-- Content Column -->
+            <div class="col-md-9">
+			
+			<div class="col-lg-12">
+                <ul id="myTab" class="nav nav-tabs nav-justified">
+                    <li class="active"><a href="#service-one" data-toggle="tab">系所特色</a>
+                    </li>
+                    <li class=""><a href="#service-two" data-toggle="tab">定位與核心能力</a>
+                    </li>
+                    <li class=""><a href="#service-three" data-toggle="tab">學生未來出路</a>
+                    </li>
+                    <li class=""><a href="#service-four" data-toggle="tab">系上設備</a>
+                    </li>
+					<li class=""><a href="#service-five" data-toggle="tab">產學合作</a>
+                    </li>
+					<li class=""><a href="#service-six" data-toggle="tab">國際交流</a>
+                    </li>
+                </ul>
+
+                <div id="myTabContent" class="tab-content">
+                    <div class="tab-pane fade active in" id="service-one">
+						
+						<p><img src="images/character.jpg" style="border:7px ridge;margin-top:30px" alt=""></p>						
+						
+					<div class="media">
+                    <div class="pull-left">
+                        <span class="fa-stack fa-2x">
+                              <i class="fa fa-circle fa-stack-2x text-primary"></i>
+                              <i class="fa fa-child fa-stack-1x fa-inverse"></i>
+                        </span> 
+                    </div>
+                    <div class="media-body">
+                    <h3>世新資傳系－全國培養『數位內容策展』人才的搖籃</h3>
+					<p>在資訊爆炸的時代，雖然內容仍是王道，但過於龐雜、優劣並存且真假難辨的資訊，反而對使用者形成困擾，但若於此資訊混亂中，能有一協助大眾進行資訊去蕪存菁的機制/人，有效地呈現關鍵資訊，將可節省使用者搜尋資訊的時間，增加關鍵資訊的被使用率，更甚者，管理、加值資訊，讓大數據得到更有效地運用，而這就是王道中的王道—數位內容策展人。
+本系即是以培養這樣王中之王的人才為宗旨，教授以整合力為核心，統整三大核心能力（資訊設計能力、知識加值能力、網路傳播能力），輔以策展能力，並施以美學教育、品德教育，形塑高尚良善的數位內容策展人才。</p>
+					</div>						
+                    </div>
+					
+					<hr>
+						
+					<div class="media">
+                    <div class="pull-left">
+                        <span class="fa-stack fa-2x">
+                              <i class="fa fa-circle fa-stack-2x text-primary"></i>
+                              <i class="fa fa-globe fa-stack-1x fa-inverse"></i>
+                        </span> 
+                    </div>
+                    <div class="media-body">
+                    <h3>國際學術交流－世新資傳看見世界，世界看見世新資傳</h3>
+					<p>本系至目前（103年）共有7個姐妹院校，分佈於美國、日本、中國大陸、及南非等，姐妹院系間每年合辦國際研討會（Information, Capital, Property, and Ethics ICPE）、師生互訪交流、學生國際實習課程（International Internship Program）等，透過國際學術交流，不僅開拓師生視野、締結外國友誼，更開啟教師間國際合作計畫、學生跨文化學習，透過姐妹院系的學術交流合作，進而擴大合作範疇，與大陸姐妹校（如上海同濟大學）的一加一碩士學制，正進行合作中。</p>
+					</div>						
+                    </div>					
+						
+						<hr>
+						
+					<div class="media">
+                    <div class="pull-left">
+                        <span class="fa-stack fa-2x">
+                              <i class="fa fa-circle fa-stack-2x text-primary"></i>
+                              <i class="fa fa-briefcase fa-stack-1x fa-inverse"></i>
+                        </span> 
+                    </div>
+                    <div class="media-body">
+                    <h3>產學win win合作－產業磨練學生就業力，同學注入企業新創意</h3>
+					<p>本系產學合作對象，遍佈資傳各領域，包括指標性企業（如應用軟體產業之叡揚資訊、數位內容產業之華達數位公司、資料庫產業之飛資得資訊公司、電子媒體產業之三立電視台新聞台、聯維集團等）。本系與產業合作，導入產業資源，邀請產業專家進行業師、協同教學，讓同學於課堂上汲取第一手的產業新知與技能，更獲得專家分享寶貴經驗，未來更將規劃橋接學產合作課程，邀請單一指標企業規劃10-16週課程，讓同學可學習到更完整且全面的數位內容創製流程、組織內部運作、成員溝通協調、與團隊合作。
+而學生創意與活力也將於產學合作（如實習）過程中帶給企業正面能量，激發企業不同角度的思考，使目標對象為年輕人的企業更能了解年輕族群想法，開發出貼近年輕族群使用需求的數位內容產品。</p>
+					</div>						
+                    </div>
+					
+						<hr>
+						
+					<div class="media">
+                    <div class="pull-left">
+                        <span class="fa-stack fa-2x">
+                              <i class="fa fa-circle fa-stack-2x text-primary"></i>
+                              <i class="fa fa-cubes fa-stack-1x fa-inverse"></i>
+                        </span> 
+                    </div>
+                    <div class="media-body">
+                    <h3>世新『策展龍』－數位內容精煉師，社群網絡中最具影響力的傳播人之一</h3>
+					<p>本校發展小龍計畫，選拔具有強烈企圖心之學生，進行知能培訓，使同學專業技能更加精進，更使其與未來職涯連結。資傳系為培養數位策展人才，是以規劃『策展龍』計畫。透過數位媒體（網站、App、影片與電子書）之創製與策展之競賽，透過產學合作，提供相關媒體業者播放展示平台，增進學生作品能見度；並藉由海外參展經驗，如姊妹院系之交流互訪，觀摩學習他校學生策展內涵。提升學生實務商業化的能力與數位權利管理的掌握。輔導並推動學生數位策展之實踐。</p>
+					</div>						
+                    </div>						
+					</div>
+					
+                    <div class="tab-pane fade" id="service-two">
+
+					<p><img src="images/character_ability.jpg" style="border:7px ridge;margin-top:30px" alt=""></p>						
+
+					<div class="media">
+                    <div class="pull-left">
+                        <span class="fa-stack fa-2x">
+                              <i class="fa fa-circle fa-stack-2x text-primary"></i>
+                              <i class="fa fa-compass fa-stack-1x fa-inverse"></i>
+                        </span> 
+                    </div>
+                    <div class="media-body">
+                        <h3 class="media-heading">系所定位</h3>
+                        <p style="color:#11A49D">世新資傳人－在網路時代能夠充分掌握數位內容與數位通路之資訊傳播專才</p>
+                    </div>
+					<p>當前資訊傳播管道與資源的多元發展，不但為社會帶來更多發展契機，相對也產生資訊爆炸、資訊焦慮與資訊落差等問題。在數位匯流的網路社會，社會需要資訊專家掌握資訊社會發展問題，運用多元的傳播媒介，以此為基礎從事資訊蒐集、整理、檢索、加值，適時地將資訊傳播給需要的民眾，並可在各行各業扮演數位化的中介角色，促進國家社會朝更文明之境界發展。</p>
+					<p>資訊傳播學系的課程內容即是著重於全球資訊網平台上必須掌握的相關資訊組織與傳播的專業技能，包括資訊蒐集、組織與管理，再透過適當的網站規劃與傳播行銷，掌握使用者特性，將產生加值的數位內容，傳遞給最需要的使用者。秉持學科創新的精神，教學與研究雙軌並進，以數位創新、知識加值與資訊傳播為目標，這也是因應現今數位核心產業最為所需的人才專業，尤其繼科技之後的文化創意產業興起，掌握網際網路通路的能力，成為未來就業與創業最重要的技能。</p>
+					</div>
+					
+					<hr>
+					
+					<div class="media">
+                    <div class="pull-left">
+                        <span class="fa-stack fa-2x">
+                              <i class="fa fa-circle fa-stack-2x text-primary"></i>
+                              <i class="fa fa-crosshairs fa-stack-1x fa-inverse"></i>
+                        </span> 
+                    </div>
+                    <div class="media-body">
+                        <h3>系所核心能力</h3>
+                    </div>
+					<div class="col-lg-12" style="padding-top:20px"><h4><i class="fa fa-pencil"></i> 大學部</h4></div>
+					<div class="col-lg-12" style="background-color:#DDE9F4;padding:20px;border:1px solid black">
+					<li>資訊設計能力：資訊設計能力是指為提升資訊傳播的效能與效率，擁有將資料與訊息從事規劃、構思、製作與呈現的專業知識與技能。</li>
+					<li>知識加值能力：知識加值能力在促進知識的有效利用，訓練學生具備能將各種資料、資訊或知識進行描述、分析、分類、組織、表達及管理的專業知識和技能。</li>
+					<li>網路傳播能力：網路傳播能力是指運用網路和他人產生對話溝通的能力。必須善用網路平台，進行訊息規劃設計，並能掌握、解讀訊息內容，進而從對話過程，反思網路文化經驗。</li>				
+					</div>
+					<div class="col-lg-12" style="padding-top:20px"><h4><i class="fa fa-pencil"></i> 碩士班、碩士在職專班</h4></div>
+					<div class="col-lg-12" style="background-color:#DDE9F4;padding:20px;border:1px solid black">
+					<li>資訊社會研究能力：資訊社會研究能力旨在面相鉅觀社會結構與微觀的行動者，思考兩者匯聚與資訊使用過程中所產生的現象與問題，進而從中培養反思能力。</li>
+					<li>資訊組織管理能力：資訊組織管理能力是擬培養同學對豐富的資訊內容，能達成有效的組織結構，提供方便的使用介面及存取服務，進而善於資訊系統管理；並能發揮群組合作的效益。</li>
+					<li>資訊運用與服務能力：資訊運用與服務能力旨在培深度及廣度了解資訊資源與服務意涵，掌握資訊服務產業沿革、現況、與趨勢，以及資訊資源和資訊傳播連動關係，可以獨立研究及適切表達資訊傳播相關議題。</li>				
+					</div>
+					<div class="col-lg-12" style="padding-top:20px"><h4><i class="fa fa-cogs"></i> 本系核心能力、課程規劃、專題製作、業界實習、產學合作及畢業就業關聯圖</h4></div>
+					<p><img src="images/character_link.png" alt=""></p>
+									
+					</div>
+					
+                    </div>
+					
+                    <div class="tab-pane fade" id="service-three">
+					
+					<p><img src="images/character_future.jpg" style="border:7px ridge;margin-top:30px" alt=""></p>						
+						
+						
+					<p>資傳系學生在校內能夠學習完整數位內容及網路傳播的專業學識，畢業前需整合四年所學以完成畢業作品並進行策展，另資傳系亦安排實習機會，提供與企業無縫接軌的管道。</p>					
+						
+					<p>畢業後出路相當寬廣與多元，除了可以繼續朝研究深造，更可以從事資訊蒐集整理、知識管理、專案企劃、網路行銷、網站規劃設計、多媒體設計、數位內容及數位學習等加值服務，相關產業包括資訊公司、網路公司、傳播媒體機構、政府機構、資訊中心及出版機構。</p>
+					
+					<hr>
+					
+					<div class="panel panel-default">
+                        <div class="panel-heading">
+                            <h4 class="panel-title">
+                                <a class="accordion-toggle" data-toggle="collapse" data-parent="#accordion" href="#collapseOne"><i class="fa fa-book"></i> 資傳系畢業生流向調查（點擊展開）</a>
+                            </h4>
+                        </div>
+                        <div id="collapseOne" class="panel-collapse collapse">
+                            <div class="panel-body">
+                                
+								<div class="col-lg-12" style="margin-top:30px">
+								<div class="row">
+								<div class="col-md-12">
+									<a href="http://ic.shu.edu.tw/wp-content/uploads/2016/12/%E8%A4%87%E6%9C%AC-103%E5%AD%B8%E5%B9%B4%E5%BA%A6%E7%95%A2%E6%A5%AD%E6%BB%BF1%E5%B9%B4%E5%AD%B8%E7%94%9F%E5%A1%AB%E7%AD%94%E6%95%98%E8%BF%B0%E7%B5%B1%E8%A8%88%E8%A1%A8-%E8%B3%87%E5%82%B3%E7%A2%A9%E5%A3%AB-%E6%96%B0.pdf" target="_blank"><h3>本系畢業生流向調查（103碩士）</h3></a>
+									<h4>2016 年 12 月 27 日</h4>
+								</div>
+							</div>
+							
+							<hr>
+							
+							<div class="row">
+								<div class="col-md-12">
+									<a href="http://ic.shu.edu.tw/wp-content/uploads/2016/12/%E8%A4%87%E6%9C%AC-103%E5%AD%B8%E5%B9%B4%E5%BA%A6%E7%95%A2%E6%A5%AD%E6%BB%BF1%E5%B9%B4%E5%AD%B8%E7%94%9F%E5%A1%AB%E7%AD%94%E6%95%98%E8%BF%B0%E7%B5%B1%E8%A8%88%E8%A1%A8-%E8%B3%87%E5%82%B3%E5%AD%B8%E5%A3%AB.pdf" target="_blank"><h3>本系畢業生流向調查（103學士）</h3></a>
+									<h4>2016 年 12 月 27 日</h4>
+								</div>
+							</div>
+							
+							<hr>
+							
+							<div class="row">
+								<div class="col-md-12">
+									<a href="http://ic.shu.edu.tw/wp-content/uploads/2016/12/%E8%A4%87%E6%9C%AC-101%E5%AD%B8%E5%B9%B4%E5%BA%A6%E7%95%A2%E6%A5%AD%E6%BB%BF3%E5%B9%B4%E5%AD%B8%E7%94%9F%E5%A1%AB%E7%AD%94%E6%95%98%E8%BF%B0%E7%B5%B1%E8%A8%88%E8%A1%A8-%E8%B3%87%E5%82%B3%E7%A2%A9%E5%A3%AB-%E6%96%B0.pdf" target="_blank"><h3>本系畢業生流向調查（101碩士）</h3></a>
+									<h4>2016 年 12 月 27 日</h4>
+								</div>
+							</div>
+
+							<hr>
+							
+							<div class="row">
+								<div class="col-md-12">
+									<a href="http://ic.shu.edu.tw/wp-content/uploads/2016/12/%E8%A4%87%E6%9C%AC-101%E5%AD%B8%E5%B9%B4%E5%BA%A6%E7%95%A2%E6%A5%AD%E6%BB%BF3%E5%B9%B4%E5%AD%B8%E7%94%9F%E5%A1%AB%E7%AD%94%E6%95%98%E8%BF%B0%E7%B5%B1%E8%A8%88%E8%A1%A8-%E8%B3%87%E5%82%B3%E5%AD%B8%E5%A3%AB.pdf" target="_blank"><h3>本系畢業生流向調查（101學士）</h3></a>
+									<h4>2016 年 12 月 27 日</h4>
+								</div>
+							</div>
+							</div>
+																
+                            </div>
+                        </div>
+                    </div>										
+                    </div>
+					
+                    <div class="tab-pane fade" id="service-four">
+					
+					<p><img src="images/character_instrument.png" style="border:7px ridge;margin-top:30px" alt=""></p>
+					
+					<p>針對課程學習與應用實驗需要，本系設有專屬專業實驗室一間，內分成「資訊檢索實驗室」與「訊息設計實驗室」，並設有專職實驗室助教ㄧ名，管理及維護實驗室軟硬體設備，並提供老師教學或學生課程上的諮詢和協助。本系實驗室為Adobe Certificated Association 國際授權認證中心，同學將可直接在本系實驗室中，進行Adobe 資傳相關認證考試。實驗室電腦備有如XML SPY標示語言編輯軟體、3D MAX、Axure RP 互動式網站Prototype 編輯軟體、社群網絡分析軟體UCINET、JAVA Service Pages（JSP）動態網頁開發程式、SQL 資料庫等資傳專業相關軟體，供同學使用。</p>
+					
+					<hr>
+					
+					<div class="media">
+                    <div class="pull-left">
+                        <span class="fa-stack fa-2x">
+                              <i class="fa fa-circle fa-stack-2x text-primary"></i>
+                              <i class="fa fa-cog fa-stack-1x fa-inverse"></i>
+                        </span> 
+                    </div>
+                    <div class="media-body">
+                        <h3>資訊檢索實驗室</h3>
+                    </div>
+					<p>配備有數十部資訊系統電腦、雷射印表機、掃描機及多媒體工作站等周邊設備，供教師小班教學外，主要提供學生進行資訊檢索和各項實作及報告課程使用，強化學生在知識理論外的整合及專業實作能力。</p>
+					<div class="col-sm-6"><img src="images/lab_1.png" alt=""></div>
+					<div class="col-sm-6"><img src="images/lab_2.jpg" alt=""></div>					
+					</div>
+					
+					<hr>
+					
+					<div class="media">
+                    <div class="pull-left">
+                        <span class="fa-stack fa-2x">
+                              <i class="fa fa-circle fa-stack-2x text-primary"></i>
+                              <i class="fa fa-edit fa-stack-1x fa-inverse"></i>
+                        </span> 
+                    </div>
+                    <div class="media-body">
+                        <h3>訊息設計實驗室</h3>
+                    </div>
+					<p>配有數十部專業系統電腦、多部MAC、MAC PRO、A1大圖印表機、雷射印表機、高階掃描器、影像剪輯機、DVD影像燒錄機、DV攝影機、數位相機等專業設備配備，以提供進行高階多媒體內容製作與光碟資料庫製作等實驗。</p>
+					<div class="col-sm-6"><img src="images/lab_3.jpg" alt=""></div>
+					<div class="col-sm-6"><img src="images/lab_4.jpg" alt=""></div>					
+					</div>
+					
+					<hr>
+					
+					<div class="media">
+                    <div class="pull-left">
+                        <span class="fa-stack fa-2x">
+                              <i class="fa fa-circle fa-stack-2x text-primary"></i>
+                              <i class="fa fa-gamepad fa-stack-1x fa-inverse"></i>
+                        </span> 
+                    </div>
+                    <div class="media-body">
+                        <h3>活動式虛擬攝影棚</h3>
+                    </div>
+					<p>主要有虛擬攝影棚導播系統、活動式藍布幕、監看螢幕、冷光燈組、聚光燈組、無線麥克風組、投影機等。本系運用實驗室內的有限空間，架設活動式虛擬攝影棚，以期同學在拍攝影片時，可營造出比實際空間更大場景的畫面，同時亦可配合劇情需要，快速製作出各類場景畫面，達至節省拍攝空間、降低拍攝成本等好處。本虛擬攝影棚除供同學課程實習之用，也可提供同學製播自己的求職影音履歷與協助教師製作磨課師（MOOCs）網路教學影片，以幫助同學求職發展與提升教師的教學效果。</p>
+					<div class="col-sm-6"><img src="images/lab_5.png" alt=""></div>
+					<div class="col-sm-6"><img src="images/lab_6.png" alt=""></div>					
+					</div>
+					
+					<hr>
+					
+					<div class="media">
+                    <div class="pull-left">
+                        <span class="fa-stack fa-2x">
+                              <i class="fa fa-circle fa-stack-2x text-primary"></i>
+                              <i class="fa fa-laptop fa-stack-1x fa-inverse"></i>
+                        </span> 
+                    </div>
+                    <div class="media-body">
+                        <h3>專業設備</h3>
+                    </div>
+					<p>配合專業課程所需，本實驗室提供諸項硬體設備外借以供學生進行課程實驗和作品製作。包括多台筆記型電腦、數位硬碟攝影機、數位相機、數位單槍投影機、外接式DVD燒錄機、抽取式硬碟等設備。</p>
+					</div>
+					
+					<hr>
+					
+					<div class="media">
+                    <div class="pull-left">
+                        <span class="fa-stack fa-2x">
+                              <i class="fa fa-circle fa-stack-2x text-primary"></i>
+                              <i class="fa fa-download fa-stack-1x fa-inverse"></i>
+                        </span> 
+                    </div>
+                    <div class="media-body">
+                        <h3>資訊傳播學系實驗室管理辦法及相關附件</h3>
+						<div class="col-lg-12" style="background-color:#DDE9F4;padding:20px;border:1px solid black">
+						<a href="http://ic.shu.edu.tw/wp-content/uploads/2015/01/附表七-資傳系實驗室書籍借閱登記簿.doc" target="_blank"><p><i class="fa fa-arrow-circle-o-down"></i> 實驗室書籍借閱登記簿</p></a>
+						<a href="http://ic.shu.edu.tw/wp-content/uploads/2015/01/附表六-新資訊傳播學系實驗室器材借用單.doc" target="_blank"><p><i class="fa fa-arrow-circle-o-down"></i> 實驗室器材借用單</p></a>
+						<a href="http://ic.shu.edu.tw/wp-content/uploads/2015/01/附表五-資訊傳播學系實驗室器材預借登記表.doc" target="_blank"><p><i class="fa fa-arrow-circle-o-down"></i> 實驗室器材預借登記表</p></a>
+						<a href="http://ic.shu.edu.tw/wp-content/uploads/2015/01/附表三-專題製作專業設備借用辦法.doc" target="_blank"><p><i class="fa fa-arrow-circle-o-down"></i> 專題製作專業設備借用辦法</p></a>
+						<a href="http://ic.shu.edu.tw/wp-content/uploads/2015/01/附表一-新上機使用登記簿.doc" target="_blank"><p><i class="fa fa-arrow-circle-o-down"></i> 上機使用登記簿</p></a>
+						<a href="http://ic.shu.edu.tw/wp-content/uploads/2015/01/LAB使用規則.doc" target="_blank"><p><i class="fa fa-arrow-circle-o-down"></i> LAB使用規則</p></a>
+						</div>
+						
+                    </div>
+					</div>				
+                    </div>
+					
+					<div class="tab-pane fade" id="service-five">
+					
+					<p style="padding-top:30px">本系與國內多家資訊與傳播媒體建立廣泛密切的產學合作關係，主要產學合作型態：</p>
+					
+					<div class="media">
+                    <div class="pull-left">
+                        <span class="fa-stack fa-2x">
+                              <i class="fa fa-circle fa-stack-2x text-primary"></i>
+                              <i class="fa fa-mortar-board fa-stack-1x fa-inverse"></i>
+                        </span> 
+                    </div>
+                    <div class="media-body">
+                        <h3>企業提供實習機會</h3>
+                    </div>
+					<p>讓本系同學得以實際參與及觀察資訊、或傳播產業的實際運作，藉此驗證理論，並從工作中實際體驗驗證、學習相關知識，更讓同學於在校時即可掌握產業脈動與企業文化，強化自身就業技能。本系也將針對企業需求，推薦優秀同學，提供人力媒合。（歷年提供本系同學參與實習計畫的企業，如：三立電視、華視、聯合報、天下雜誌、新浪網、華達數位、叡揚科技、飛資得資訊、資策會等，詳細請參閱本系網站）</p>
+					</div>
+					
+					<hr>
+					
+					<div class="media">
+                    <div class="pull-left">
+                        <span class="fa-stack fa-2x">
+                              <i class="fa fa-circle fa-stack-2x text-primary"></i>
+                              <i class="fa fa-comments-o fa-stack-1x fa-inverse"></i>
+                        </span> 
+                    </div>
+                    <div class="media-body">
+                        <h3>業界師資協同教學合作計畫</h3>
+                    </div>
+					<p>邀請業界專才至課堂與本系老師共同授課，直接將業界經驗導入課堂中，讓同學於課堂上即可知曉最新產業動態與技能發展，更可吸引寶貴的職場經歷。</p>
+					</div>
+					
+					<hr>
+					
+					<div class="media">
+                    <div class="pull-left">
+                        <span class="fa-stack fa-2x">
+                              <i class="fa fa-circle fa-stack-2x text-primary"></i>
+                              <i class="fa fa-share-alt fa-stack-1x fa-inverse"></i>
+                        </span> 
+                    </div>
+                    <div class="media-body">
+                        <h3>其他形式合作計畫</h3>
+                    </div>
+					<p>本系產學合作的指標企業，如：叡揚資訊（經濟部卓越中堅企業、優等創新企業、企業E化應用軟體與服務之領導廠商）、華達數位公司（中華電信與宏達電子共同創立，主要提供影音內容資料管理的軟體服務）、飛資得資訊公司（大中華地區數位學術研究資源、資料庫的領導者）、三立電視台新聞台（台灣最賺錢的電視媒體之一）、聯維集團（中正、萬華區最知名有線電視系統）等。</p>
+					</div>
+					
+					<hr>
+					
+					<div class="panel panel-default">
+                        <div class="panel-heading">
+                            <h4 class="panel-title">
+                                <a class="accordion-toggle" data-toggle="collapse" data-parent="#accordion" href="#collapseTwo"><i class="fa fa-newspaper-o"></i> 最新產學合作動態（點擊展開）</a>
+                            </h4>
+                        </div>
+                        <div id="collapseTwo" class="panel-collapse collapse">
+                            <div class="panel-body">
+                                
+								<div class="row">
+									<div class="col-md-3">
+										<a href="employ_170523.html">
+											<img class="img-responsive img-hover" src="images/employ_170523.png" alt="">
+										</a>
+									</div>
+									<div class="col-md-9">
+										<a href="employ_170523.html"><h3>參訪三立電視新媒體部 深化本系學生實習計畫</h3></a>
+										<h4>2017 年 05 月 23 日</h4>
+										<p style="text-align:right"><a href="employ_170523.html">Read More</i></a></p>
+									</div>
+								</div>
+				
+							<hr>								
+								
+								<div class="row">
+									<div class="col-md-3">
+										<a href="employ_170502.html">
+											<img class="img-responsive img-hover" src="images/news_ics.png" alt="">
+										</a>
+									</div>
+									<div class="col-md-9">
+										<a href="employ_170502.html"><h3>湖南衛視實習說明會</h3></a>
+										<h4>2017 年 05 月 02 日</h4>
+										<p style="text-align:right"><a href="employ_170502.html">Read More</i></a></p>
+									</div>
+								</div>
+				
+							<hr>
+							
+							<div class="row">
+								<div class="col-md-3">
+									<a href="employ_170501.html">
+										<img class="img-responsive img-hover" src="images/employ_170501.png" alt="">
+									</a>
+								</div>
+								<div class="col-md-9">
+									<a href="employ_170501.html"><h3>Yahoo奇摩TV開播 邀請本系加入暑假實習計畫</h3></a>
+									<h4>2017 年 05 月 01 日</h4>
+									<p style="text-align:right"><a href="employ_170501.html">Read More</i></a></p>
+								</div>
+							</div>
+							
+							<hr>
+							
+							<div class="row">
+								<div class="col-md-3">
+									<a href="http://www.2017mango.com/" target="_blank">
+										<img class="img-responsive img-hover" src="images/news_ics.png" alt="">
+									</a>
+								</div>
+								<div class="col-md-9">
+									<a href="http://www.2017mango.com/" target="_blank"><h3>2017湖南衛視實習計畫</h3></a>
+									<h4>2017 年 04 月 27 日</h4>
+									<p style="text-align:right"><a href="http://www.2017mango.com/" target="_blank">Read More</i></a></p>
+								</div>
+							</div>
+
+							<hr>
+							
+							<div class="row">
+								<div class="col-md-3">
+									<a href="employ_151001.html" target="_blank">
+										<img class="img-responsive img-hover" src="images/employ_151001.jpg" alt="">
+									</a>
+								</div>
+								<div class="col-md-9">
+									<a href="employ_151001.html" target="_blank"><h3>考試院李繼玄秘書長訪系、洽談數位影音學產合作</h3></a>
+									<h4>2015 年 10 月 01 日</h4>
+									<p style="text-align:right"><a href="employ_151001.html" target="_blank">Read More</i></a></p>
+								</div>
+							</div>
+							
+							<hr>
+							
+							<div class="row">
+								<div class="col-md-3">
+									<a href="employ_140629.html" target="_blank">
+										<img class="img-responsive img-hover" src="images/employ_140629.jpg" alt="">
+									</a>
+								</div>
+								<div class="col-md-9">
+									<a href="employ_140629.html" target="_blank"><h3>【資傳 華達產學合作 強化同學就業即戰力】</h3></a>
+									<h4>2014 年 06 月 29 日</h4>
+									<p style="text-align:right"><a href="employ_140629.html" target="_blank">Read More</i></a></p>
+								</div>
+							</div>							
+																			
+							</div>
+						</div>
+                    </div>				
+                    </div>
+					
+					<div class="tab-pane fade" id="service-six">
+					
+					<p><img src="images/character_international.png" style="border:7px ridge;margin-top:30px" alt=""></p>
+
+					<p>本系與國際接軌，有長年交流之國際姐妹校：</p>
+					
+					<div class="media">
+                    <div class="pull-left">
+                        <span class="fa-stack fa-2x">
+                              <i class="fa fa-circle fa-stack-2x text-primary"></i>
+                              <i class="fa fa-send fa-stack-1x fa-inverse"></i>
+                        </span> 
+                    </div>
+                    <div class="media-body">
+                        <h3>本系姐妹院系</h3>
+                    </div>
+					
+					<div class="col-lg-12" style="background-color:#DDE9F4;padding:20px;margin-top:20px;border:1px solid black">
+					<a href="http://ccs.tsurumi-u.ac.jp/docu/"><li>1.日本鶴見大學（Tsurumi University） 圖書館、檔案與資訊研究學系 （Department of Library, Archival, and Information Studies）</li></a>
+					<a href="http://sois.dom.edu/"><li>2.美國多明尼克大學（Dominican University）圖書館學與資訊科學學院 （School of Library & Information Science）</li></a>
+					<a href="http://si.usf.edu/"><li>3.美國南佛羅里達大學（University of South Florida）資訊學院（School of Information）</li></a>
+					<a href="http://im.sysu.edu.cn/Index.asp"><li>4.廣州中山大學資訊管理學院</li></a>
+					<li>5.南非Fort Hare大學圖書資訊學系 (Department of Library & Information Science)</li></a>
+					<li>6.上海社會科學院信息研究所</li></a>
+					</div>
+
+					</div>
+					
+					<hr>
+					
+					<div class="media">
+                    <div class="pull-left">
+                        <span class="fa-stack fa-2x">
+                              <i class="fa fa-circle fa-stack-2x text-primary"></i>
+                              <i class="fa fa-plane fa-stack-1x fa-inverse"></i>
+                        </span> 
+                    </div>
+                    <div class="media-body">
+                        <h3>姐妹系交流活動</h3>
+                    </div>
+					<div class="col-lg-12" style="background-color:#DDE9F4;padding:20px;margin-top:20px;border:1px solid black">
+					<li>每年姐妹院系共同舉辦ICPE（Information Capital, Property, and Ethics）國際學術研討會</li></a>
+					<li>與日本鶴見大學每年學術交流，學生參與International Intermship Program</li></a>
+					</div>					
+					</div>
+					
+					<hr>
+					
+					<div class="media">
+                    <div class="pull-left">
+                        <span class="fa-stack fa-2x">
+                              <i class="fa fa-circle fa-stack-2x text-primary"></i>
+                              <i class="fa fa-random fa-stack-1x fa-inverse"></i>
+                        </span> 
+                    </div>
+                    <div class="media-body">
+                        <h3>雙聯學制（Joint Dual-degree）</h3>
+                    </div>
+					<p>1+1碩士：本系碩士生未來將可一年在本校本系學習、一年在國外他校上課（如上海同濟大學、或廣州中山大學等），完成雙方學校認可之畢業資格，將可同時取得本校及他校（如上海同濟大學、或廣州中山大學等）的碩士學位。</p>
+					</div>
+					
+					<hr>
+					
+					<div class="media">
+                    <div class="pull-left">
+                        <span class="fa-stack fa-2x">
+                              <i class="fa fa-circle fa-stack-2x text-primary"></i>
+                              <i class="fa fa-anchor fa-stack-1x fa-inverse"></i>
+                        </span> 
+                    </div>
+                    <div class="media-body">
+                        <h3>最新國際交流活動</h3>
+                    </div>					
+					<div class="col-md-12" style="padding-top:20px">
+					<div class="col-sm-4 img-portfolio img-hover"><img src="images/globe_1.png" alt=""></div>
+					<div class="col-sm-4 img-portfolio img-hover"><img src="images/globe_2.png" alt=""></div>
+					<div class="col-sm-4 img-portfolio img-hover"><img src="images/globe_3.png" alt=""></div>
+					<div class="col-sm-4 img-portfolio img-hover"><img src="images/globe_4.png" alt=""></div>
+					<div class="col-sm-4 img-portfolio img-hover"><img src="images/globe_5.png" alt=""></div>
+					<div class="col-sm-4 img-portfolio img-hover"><img src="images/globe_6.png" alt=""></div>
+					</div>
+					
+					</div>
+					
+                    </div>
+					
+                </div>
+
+            </div>
+			
+			
+			
+			
+			
+			
+			
+			
+			</div>
+        </div>
+        <!-- /.row -->
+
+        <hr>
+
+        <!-- Footer -->
+        <footer>
+            <div class="row">
+                <div class="col-lg-12">
+				<p>Copyright &copy; 世新大學資訊傳播學系</p>
+				<p>世新大學資訊傳播學系 ( 如有網頁相關意見或公告事宜，歡迎來信<a href="dwsine13@gmail.com">dwsine13@gmail.com</a> 告知網管 )｜ <a href="http://ic.shu.edu.tw/?p=9319&preview=true&preview_id=9319" target="_blank">隱私聲明</a></p>
+				<p>地址：臺北市11604 文山區木柵路一段17巷1號　電話：(02)2236-8225轉3282 傳真：(02)2236-1722　design by 世新資傳A105070018紀昕蓉</p>
+                </div>
+            </div>
+        </footer>
+
+    </div>
+    <!-- /.container -->
+
+    <!-- jQuery -->
+    <script src="js/jquery.js"></script>
+
+    <!-- Bootstrap Core JavaScript -->
+    <script src="js/bootstrap.min.js"></script>
+
+</body>
+
+</html>
